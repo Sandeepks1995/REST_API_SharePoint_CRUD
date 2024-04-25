@@ -3,8 +3,8 @@
 
 //01 fetch data from SharePoint list top 5000 data append in a table using id
 // JS Code
-{/* <script type="text/javascript" src="https://sharepointiq.sharepoint.com/sites/Dev/SiteAssets/js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="https://3fr5xd.sharepoint.com/:u:/r/sites/Success_Point/SiteAssets/EmpApp/emp.js?csf=1&web=1&e=8kQCHh"></script>
+{/* <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="url.js?csf=1&web=1&e=8kQCHh"></script>
 
 <style>
 table, th, td {
@@ -45,8 +45,8 @@ function Read() {
 //02 Filter using if else with onchange event listener and data append in table 
 // HTML Code
 
-{/* <script type="text/javascript" src="https://sharepointiq.sharepoint.com/sites/Dev/SiteAssets/js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="https://3fr5xd.sharepoint.com/:u:/r/sites/Success_Point/SiteAssets/FilterApp/filter_app.js?csf=1&web=1&e=kqS6Qd"></script>
+{/* <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="https://url/SiteAssets/FilterApp/filter_app.js?csf=1&web=1&e=kqS6Qd"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
    <div class="container-fluid" style="width:100%">
@@ -124,8 +124,8 @@ function Read() {
 
 //03 Filter by making url endpoints with date filter including lookup column values and data append in table 
 // HTML code
-{/* <script type="text/javascript" src="https://3fr5xd.sharepoint.com/:u:/r/sites/Success_Point/SiteAssets/Advance%20filter/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="https://3fr5xd.sharepoint.com/:u:/r/sites/Success_Point/SiteAssets/Advance%20filter/adv_filter.js"></script>
+{/* <script type="text/javascript" src="url/SiteAssets/Advance%20filter/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="https://url/sites/site/SiteAssets/Advance%20filter/adv_filter.js"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
    <div class="container mt-3">
@@ -230,7 +230,7 @@ function constructDOJFilter() {
 // 04 date  filter by given date range
 // HTML Code
 {/* <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://3fr5xd.sharepoint.com/:u:/r/sites/Success_Point/SiteAssets/Date%20Adv_filter/adv_filter.js"></script>
+<script src="https://url/:u:/r/sites/Success_Point/SiteAssets/Date%20Adv_filter/adv_filter.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <div class="container mt-3">
@@ -300,7 +300,7 @@ function convertDate(dateString) {
 
 {/* <script type="text/javascript" src="https://cdn.datatables.net/2.0.3/js/dataTables.min.js"></script>
 <link rel="stylesheet" href="https://cdn.datatables.net/2.0.3/css/dataTables.dataTables.min.css">
-<script type="text/javascript" src="https://3fr5xd.sharepoint.com/:u:/r/sites/Success_Point/SiteAssets/Pagination/emp.js"></script>
+<script type="text/javascript" src="https://url/:u:/r/sites/Success_Point/SiteAssets/Pagination/emp.js"></script>
 
 <h2 style="text-center">Employee Data</h2>
 <table id="Employee" class="display" cellspacing="0" width="100%">
@@ -355,8 +355,8 @@ function getListData() {
 // 06 CRUD operations -- create item in list, edit/update using populate values in form , delete item
 
 // HTML Code
-{/* <script type="text/javascript" src="https://3fr5xd.sharepoint.com/sites/gaurav/SiteAssets/JS/jquery-3.7.1.js"></script>
-<script type="text/javascript" src="https://3fr5xd.sharepoint.com/:u:/r/sites/Success_Point/SiteAssets/My%20Crud%20APP/crud.js"></script>
+{/* <script type="text/javascript" src="jquery-3.7.1.js"></script>
+<script type="text/javascript" src="https://domain/:u:/r/sites/Success_Point/SiteAssets/My%20Crud%20APP/crud.js"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 <form>
@@ -608,7 +608,7 @@ $(document).ready(function () {
 // HTML Code
 {/* <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.SPServices/0.7.1a/jquery.SPServices-0.7.1a.min.js"></script>
-<script type="text/javascript" src="https://3fr5xd.sharepoint.com/:u:/r/sites/Success_Point/SiteAssets/Project_REST/rest.js"></script>
+<script type="text/javascript" src="https://domain/:u:/r/sites/Success_Point/SiteAssets/Project_REST/rest.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 
 <style>
@@ -993,12 +993,12 @@ $(document).ready(function () {
     ID: <input type="text" id="_TextDeleteID" name="_Title" />
     <input type="button" id="_Delete" title="_Delete" name="_Delete" value="Delete" onclick="deleteListItem();" />
 
-<script src="https://3fr5xd.sharepoint.com/sites/Success_Point/_layouts/15/sp.js" type="text/javascript"></script> 
-<script src="https://3fr5xd.sharepoint.com/sites/Success_Point/SiteAssets/JSOM%20Prototype/JSOMAPP.js" type="text/javascript"></script>   */}
+<script src="https://domain/sites/Success_Point/_layouts/15/sp.js" type="text/javascript"></script> 
+<script src="https://domain/sites/Success_Point/SiteAssets/JSOM%20Prototype/JSOMAPP.js" type="text/javascript"></script>   */}
 
 // JS Code
 
-var BaseUrl = "https://3fr5xd.sharepoint.com/sites/Success_Point/";
+var BaseUrl = "https://domain/sites/Success_Point/";
 var listName = "JSOM";
 function getWebProperties() {
     try {
